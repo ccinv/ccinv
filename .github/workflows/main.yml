@@ -2,9 +2,9 @@ name: Generate Snake SVG
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
   schedule:
     - cron: '0 0 * * *' # this will run the action every day at midnight
 
